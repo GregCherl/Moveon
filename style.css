@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1580px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+
+    background: url('./img/Path\ 194.png') center no-repeat;
+    background-size: cover;
+   
+    
+    padding-top: 59px;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__menu {
+    margin-left: 700px;   
+}
+
+.nav__link { 
+    text-decoration: none;
+    padding-right: 24px;
+    color: #fff;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 124%;
+    font-family: Jost;
+}
+
+.icon {
+    margin-left: 20px;
+
+    width: 25px;
+    height: 25px;
+}
+
+/* intro ======
+============= */
+
+.intro__description {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.intro {   
+    margin-left: 244px;   
+}
+
+.intro__title {
+    font-family: Jost;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 124%;
+
+    text-transform: uppercase;
+    color: #fff;
+
+    width: 549px;
+    padding-bottom: 14px;   
+    
+    margin-top: 216px;
+}
+
+
+.intro__text {
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 124%;
+    
+    color: #fff;
+
+    width: 559px;
+}
+
+.intro_icon {
+    width: 600px;
+    padding-left: 200px;
+    margin-top: 70px;
+}
+
+/* functional ====
+================== */
+
+.functional__inner {
+    text-align: center;
+}
+
+.functional__title {
+    font-family: Jost;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 66px;
+    
+    text-transform: uppercase;
+}
+
+.functional__info {
+    font-family: Jost;
+    font-size: 18px;
+    line-height: 124%;
+
+    margin: 0 auto;
+
+    width: 424px;
+    padding-top: 23px;
+
+    color: #ABABAB;
+}
+
+/* left block === */
+
+.left__block p {
+    font-family: Jost;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 124%;
+
+    text-align: right;
+
+    color: #B0B0B0;
+}
+
+.left__block h3 {
+    font-family: Jost;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 124%;
+    text-align: right;
+
+    padding-bottom: 11px;
+
+    color: #000000;
+}
+
+.left {
+    margin-top: 181px;
+
+    width: 36%;
+    float: left;
+}
+
+.left__icon {
+    margin-left: 26px;
+
+    float: right;
+}
+
+.services__icon {
+    margin-top: 101px;
+}
+
+.services__item {
+    padding-bottom: 188px;
+
+    width: 500px;
+    height: 90px;
+}
+
+.services__icon {
+    display: inline-block;
+}
+
+/* right block ===== */
+
+.right {
+    margin-top: 181px;
+
+    float: right;
+    width: 32%;
+}
+
+.right__block p {
+    font-family: Jost;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 124%;
+
+    text-align: left;
+
+    color: #B0B0B0;
+}
+
+.right__block h3 {
+    font-family: Jost;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 124%;
+    text-align: left;
+
+    padding-bottom: 11px;
+    
+    color: #000000;
+}
+
+.right__icon {
+    margin-right: 26px;
+
+    float: left;
+}
+
+/* footer ==========
+===================== */
+
+.footer {
+    padding-top: 400px;
+   
+    width: 100%;
+    height: 523px;
+    background: url('img/Path\ 96.jpg') center no-repeat;
+    background-size: cover;
+}
+
+
+.footer__block {
+    display: flex;
+    justify-content: space-between;
+    
+    border-bottom: 1px solid #fff;
+    padding-bottom: 84px;
+}
+
+.footer__title {
+    font-family: Jost;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+
+    margin-bottom: 13px;
+
+    color: #FFFFFF;
+}
+
+
+.footer__left .footer__text {
+    width: 518px;
+    height: 93px;
+
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 124%;
+
+    color: #FFFFFF;
+}
+
+.footer__center .footer__text {
+    position: absolute;
+    width: 315px;
+    
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 160%;
+
+    color: #FFFFFF;
+}
+
+.footer__icon {
+    width: 50px;
+    padding-right: 26px;
+}
+
+
+
+.last__block {
+    margin-top: 48px;
+
+    text-align: center;
+
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 124%;
+ 
+    color: #FFFFFF;
+}
+
+
